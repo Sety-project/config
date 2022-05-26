@@ -40,8 +40,7 @@
         "future_volume_avg": 15523848.8816085,
         "concentration_limit_long": 102624.229484313,
         "concentration_limit_short": 102624.229484313,
-        "is_wide": true,
-        "is_institutional": false
+        "tier": "wide"
     },
     "1INCH-0325": {
         "ask": 1.4732,
@@ -84,8 +83,7 @@
         "future_volume_avg": 121993.769528834,
         "concentration_limit_long": 5083.0737303681,
         "concentration_limit_short": 5083.0737303681,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "AAVE-PERP": {
         "ask": 142.31,
@@ -128,8 +126,7 @@
         "future_volume_avg": 27178823.5118116,
         "concentration_limit_long": 234365.849110458,
         "concentration_limit_short": 234365.849110458,
-        "is_wide": true,
-        "is_institutional": true
+        "tier": "wide"
     },
     "AAVE-0325": {
         "ask": 143.74,
@@ -172,8 +169,7 @@
         "future_volume_avg": 388945.911180368,
         "concentration_limit_long": 16206.0796325153,
         "concentration_limit_short": 16206.0796325153,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "AGLD-PERP": {
         "ask": 1.1555,
@@ -216,8 +212,7 @@
         "future_volume_avg": 7863869.0691043,
         "concentration_limit_long": 15023.5294276261,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "ALCX-PERP": {
         "ask": 93.2,
@@ -260,8 +255,7 @@
         "future_volume_avg": 3756608.9991304,
         "concentration_limit_long": 40366.4670421101,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "ALICE-PERP": {
         "ask": 6.3225,
@@ -304,8 +298,7 @@
         "future_volume_avg": 13651957.9738084,
         "concentration_limit_long": 28992.5456549051,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "ALPHA-PERP": {
         "ask": 0.2787,
@@ -348,8 +341,7 @@
         "future_volume_avg": 3174494.67405868,
         "concentration_limit_long": 11231.6459977325,
         "concentration_limit_short": 11231.6459977325,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "AMPL-PERP": {
         "ask": 1.087,
@@ -392,8 +384,7 @@
         "future_volume_avg": 1592202.93564461,
         "concentration_limit_long": 18380.4220172143,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "ATLAS-PERP": {
         "ask": 0.025146,
@@ -436,8 +427,7 @@
         "future_volume_avg": 6601936.77214148,
         "concentration_limit_long": 255210.616690536,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "AUDIO-PERP": {
         "ask": 0.744,
@@ -480,8 +470,7 @@
         "future_volume_avg": 4280815.20442684,
         "concentration_limit_long": 14369.637512957,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "AVAX-PERP": {
         "ask": 76.889,
@@ -524,8 +513,7 @@
         "future_volume_avg": 232980199.846004,
         "concentration_limit_long": 883971.648391853,
         "concentration_limit_short": 883971.648391853,
-        "is_wide": true,
-        "is_institutional": true
+        "tier": "wide"
     },
     "AVAX-0325": {
         "ask": 76.829,
@@ -568,8 +556,7 @@
         "future_volume_avg": 1247785.29040344,
         "concentration_limit_long": 51991.0537668098,
         "concentration_limit_short": 51991.0537668098,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "AXS-PERP": {
         "ask": 50.082,
@@ -612,8 +599,7 @@
         "future_volume_avg": 50688845.1180094,
         "concentration_limit_long": 256648.872145627,
         "concentration_limit_short": 256648.872145627,
-        "is_wide": true,
-        "is_institutional": true
+        "tier": "wide"
     },
     "BADGER-PERP": {
         "ask": 7.285,
@@ -656,8 +642,7 @@
         "future_volume_avg": 5691793.47406978,
         "concentration_limit_long": 29982.2247885007,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "BAL-PERP": {
         "ask": 11.4825,
@@ -700,8 +685,7 @@
         "future_volume_avg": 3885201.43636798,
         "concentration_limit_long": 10540.150915826,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "BAL-0325": {
         "ask": 11.485,
@@ -744,8 +728,7 @@
         "future_volume_avg": 100158.915489939,
         "concentration_limit_long": 4173.28814541411,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "BAND-PERP": {
         "ask": 3.596,
@@ -788,8 +771,7 @@
         "future_volume_avg": 4715481.16090773,
         "concentration_limit_long": 18035.5895994447,
         "concentration_limit_short": 18035.5895994447,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "BAO-PERP": {
         "ask": 0.000133,
@@ -832,8 +814,7 @@
         "future_volume_avg": 934263.370775567,
         "concentration_limit_long": 12668.6783734382,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "BAT-PERP": {
         "ask": 0.853925,
@@ -876,8 +857,7 @@
         "future_volume_avg": 11793962.181532,
         "concentration_limit_long": 52036.7237569759,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "BCH-PERP": {
         "ask": 295.45,
@@ -920,8 +900,7 @@
         "future_volume_avg": 39055877.488705,
         "concentration_limit_long": 185107.884461812,
         "concentration_limit_short": 185107.884461812,
-        "is_wide": true,
-        "is_institutional": false
+        "tier": "wide"
     },
     "BCH-0325": {
         "ask": 295.5,
@@ -964,8 +943,7 @@
         "future_volume_avg": 601775.464946503,
         "concentration_limit_long": 25073.9777061043,
         "concentration_limit_short": 25073.9777061043,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "BIT-PERP": {
         "ask": 1.116,
@@ -1008,8 +986,7 @@
         "future_volume_avg": 2589388.2872485,
         "concentration_limit_long": 87005.856285516,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "BNB-PERP": {
         "ask": 383.7125,
@@ -1052,8 +1029,7 @@
         "future_volume_avg": 96892194.324261,
         "concentration_limit_long": 1823187.17575375,
         "concentration_limit_short": 1823187.17575375,
-        "is_wide": true,
-        "is_institutional": true
+        "tier": "wide"
     },
     "BNB-0325": {
         "ask": 383.0075,
@@ -1096,8 +1072,7 @@
         "future_volume_avg": 2494326.87280859,
         "concentration_limit_long": 103930.286367025,
         "concentration_limit_short": 103930.286367025,
-        "is_wide": true,
-        "is_institutional": false
+        "tier": "wide"
     },
     "BNT-PERP": {
         "ask": 2.29,
@@ -1140,8 +1115,7 @@
         "future_volume_avg": 843483.197406386,
         "concentration_limit_long": 15120.4379230449,
         "concentration_limit_short": 15120.4379230449,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "BOBA-PERP": {
         "ask": 1.2865,
@@ -1184,8 +1158,7 @@
         "future_volume_avg": 5459688.28553392,
         "concentration_limit_long": 164401.778535771,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "BRZ-PERP": {
         "ask": 0.1967,
@@ -1228,8 +1201,7 @@
         "future_volume_avg": 62558.8919886719,
         "concentration_limit_long": 2606.620499528,
         "concentration_limit_short": 2606.620499528,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "BTC-PERP": {
         "ask": 40643,
@@ -1272,8 +1244,7 @@
         "future_volume_avg": 3909747361.45909,
         "concentration_limit_long": 22925377.6482623,
         "concentration_limit_short": 22925377.6482623,
-        "is_wide": true,
-        "is_institutional": true
+        "tier": "wide"
     },
     "BTC-0325": {
         "ask": 40653,
@@ -1316,8 +1287,7 @@
         "future_volume_avg": 95043364.9925409,
         "concentration_limit_long": 3960140.20802254,
         "concentration_limit_short": 3960140.20802254,
-        "is_wide": true,
-        "is_institutional": true
+        "tier": "wide"
     },
     "BTC-0624": {
         "ask": 41058,
@@ -1360,8 +1330,7 @@
         "future_volume_avg": 33152273.7409962,
         "concentration_limit_long": 1381344.73920818,
         "concentration_limit_short": 1381344.73920818,
-        "is_wide": true,
-        "is_institutional": true
+        "tier": "wide"
     },
     "C98-PERP": {
         "ask": 1.4056,
@@ -1404,8 +1373,7 @@
         "future_volume_avg": 4785854.44127311,
         "concentration_limit_long": 8265.72598172143,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "CEL-PERP": {
         "ask": 3.175,
@@ -1448,8 +1416,7 @@
         "future_volume_avg": 1138260.02066932,
         "concentration_limit_long": 47427.5008612217,
         "concentration_limit_short": 47427.5008612217,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "CEL-0325": {
         "ask": 3.175,
@@ -1492,8 +1459,7 @@
         "future_volume_avg": 213958.419479264,
         "concentration_limit_long": 8914.93414496932,
         "concentration_limit_short": 8914.93414496932,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "CHR-PERP": {
         "ask": 0.3898,
@@ -1536,8 +1502,7 @@
         "future_volume_avg": 9736670.70316798,
         "concentration_limit_long": 26141.9938836881,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "CHZ-PERP": {
         "ask": 0.199158,
@@ -1580,8 +1545,7 @@
         "future_volume_avg": 10530794.7445891,
         "concentration_limit_long": 33135.7536440305,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "CHZ-0325": {
         "ask": 0.198913,
@@ -1624,8 +1588,7 @@
         "future_volume_avg": 196678.010379681,
         "concentration_limit_long": 8194.91709915337,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "CLV-PERP": {
         "ask": 0.317,
@@ -1668,8 +1631,7 @@
         "future_volume_avg": 7951889.48426765,
         "concentration_limit_long": 7219.46379965294,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "COMP-PERP": {
         "ask": 110.46,
@@ -1712,8 +1674,7 @@
         "future_volume_avg": 10389526.7978351,
         "concentration_limit_long": 57795.4406405363,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "COMP-0325": {
         "ask": 110.4,
@@ -1756,8 +1717,7 @@
         "future_volume_avg": 99118.5280882307,
         "concentration_limit_long": 4129.93867034295,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "CONV-PERP": {
         "ask": 0.00447,
@@ -1800,8 +1760,7 @@
         "future_volume_avg": 1441269.45418973,
         "concentration_limit_long": 5283.71934794077,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "CREAM-PERP": {
         "ask": 44.9,
@@ -1844,8 +1803,7 @@
         "future_volume_avg": 12737703.7188783,
         "concentration_limit_long": 74204.9459752429,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "CRO-PERP": {
         "ask": 0.400725,
@@ -1888,8 +1846,7 @@
         "future_volume_avg": 31561531.8767089,
         "concentration_limit_long": 197156.573488431,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "CRV-PERP": {
         "ask": 2.06005,
@@ -1932,8 +1889,7 @@
         "future_volume_avg": 60797438.2514343,
         "concentration_limit_long": 242144.76889764,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": true
+        "tier": "institutional"
     },
     "DAWN-PERP": {
         "ask": 1.696,
@@ -1976,8 +1932,7 @@
         "future_volume_avg": 931685.597433596,
         "concentration_limit_long": 7074.02189308191,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "DENT-PERP": {
         "ask": 0.00236,
@@ -2020,8 +1975,7 @@
         "future_volume_avg": 4462462.34702971,
         "concentration_limit_long": 2573.70563752892,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "DODO-PERP": {
         "ask": 0.393,
@@ -2064,8 +2018,7 @@
         "future_volume_avg": 2989593.3082373,
         "concentration_limit_long": 7064.30951006479,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "DOGE-PERP": {
         "ask": 0.116524,
@@ -2108,8 +2061,7 @@
         "future_volume_avg": 119392552.619026,
         "concentration_limit_long": 994590.953359114,
         "concentration_limit_short": 994590.953359114,
-        "is_wide": true,
-        "is_institutional": true
+        "tier": "wide"
     },
     "DOGE-0325": {
         "ask": 0.1165825,
@@ -2152,8 +2104,7 @@
         "future_volume_avg": 570926.941018152,
         "concentration_limit_long": 23788.622542423,
         "concentration_limit_short": 23788.622542423,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "DOT-PERP": {
         "ask": 18.858,
@@ -2196,8 +2147,7 @@
         "future_volume_avg": 146453386.049115,
         "concentration_limit_long": 267772.261670136,
         "concentration_limit_short": 267772.261670136,
-        "is_wide": true,
-        "is_institutional": true
+        "tier": "wide"
     },
     "DOT-0325": {
         "ask": 18.764,
@@ -2240,8 +2190,7 @@
         "future_volume_avg": 2557358.96962601,
         "concentration_limit_long": 106556.623734417,
         "concentration_limit_short": 106556.623734417,
-        "is_wide": true,
-        "is_institutional": false
+        "tier": "wide"
     },
     "DYDX-PERP": {
         "ask": 4.764,
@@ -2284,8 +2233,7 @@
         "future_volume_avg": 32554133.7789246,
         "concentration_limit_long": 301255.941987922,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": true
+        "tier": "institutional"
     },
     "EDEN-PERP": {
         "ask": 0.348,
@@ -2328,8 +2276,7 @@
         "future_volume_avg": 2650303.71092235,
         "concentration_limit_long": 6304.13981443776,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "EDEN-0325": {
         "ask": 0.3445,
@@ -2372,8 +2319,7 @@
         "future_volume_avg": 341270.6904,
         "concentration_limit_long": 6304.13981443776,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "ENJ-PERP": {
         "ask": 1.3907,
@@ -2416,8 +2362,7 @@
         "future_volume_avg": 16845679.3211978,
         "concentration_limit_long": 76799.5171186256,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "ENS-PERP": {
         "ask": 15.765,
@@ -2460,8 +2405,7 @@
         "future_volume_avg": 11898938.6301607,
         "concentration_limit_long": 47244.3081285053,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "ETH-PERP": {
         "ask": 2756,
@@ -2504,8 +2448,7 @@
         "future_volume_avg": 2635202280.68012,
         "concentration_limit_long": 21439933.9217267,
         "concentration_limit_short": 21439933.9217267,
-        "is_wide": true,
-        "is_institutional": true
+        "tier": "wide"
     },
     "ETH-0325": {
         "ask": 2755.9,
@@ -2548,8 +2491,7 @@
         "future_volume_avg": 59385529.172224,
         "concentration_limit_long": 2474397.04884266,
         "concentration_limit_short": 2474397.04884266,
-        "is_wide": true,
-        "is_institutional": true
+        "tier": "wide"
     },
     "ETH-0624": {
         "ask": 2781.2,
@@ -2592,8 +2534,7 @@
         "future_volume_avg": 23427145.54637,
         "concentration_limit_long": 976131.064432084,
         "concentration_limit_short": 976131.064432084,
-        "is_wide": true,
-        "is_institutional": true
+        "tier": "wide"
     },
     "FIDA-PERP": {
         "ask": 1.6133,
@@ -2636,8 +2577,7 @@
         "future_volume_avg": 3220547.7387776,
         "concentration_limit_long": 24182.5971760111,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "FTM-PERP": {
         "ask": 1.22185,
@@ -2680,8 +2620,7 @@
         "future_volume_avg": 189616949.433941,
         "concentration_limit_long": 1166934.4783872,
         "concentration_limit_short": 1166934.4783872,
-        "is_wide": true,
-        "is_institutional": true
+        "tier": "wide"
     },
     "FTT-PERP": {
         "ask": 42.605,
@@ -2724,8 +2663,7 @@
         "future_volume_avg": 72973194.50642,
         "concentration_limit_long": 1857286.03997247,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": true
+        "tier": "institutional"
     },
     "GALA-PERP": {
         "ask": 0.2254,
@@ -2768,8 +2706,7 @@
         "future_volume_avg": 82168281.1548089,
         "concentration_limit_long": 112028.433981606,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "GRT-PERP": {
         "ask": 0.4089,
@@ -2812,8 +2749,7 @@
         "future_volume_avg": 14642668.9613264,
         "concentration_limit_long": 51698.8586514114,
         "concentration_limit_short": 51698.8586514114,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "GRT-0325": {
         "ask": 0.4095,
@@ -2856,8 +2792,7 @@
         "future_volume_avg": 147759.018346749,
         "concentration_limit_long": 6156.62576444785,
         "concentration_limit_short": 6156.62576444785,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "HNT-PERP": {
         "ask": 22.588,
@@ -2900,8 +2835,7 @@
         "future_volume_avg": 8462041.91121984,
         "concentration_limit_long": 37394.1627591115,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "HT-PERP": {
         "ask": 8.9975,
@@ -2944,8 +2878,7 @@
         "future_volume_avg": 4026037.73502275,
         "concentration_limit_long": 39100.3885239472,
         "concentration_limit_short": 39100.3885239472,
-        "is_wide": true,
-        "is_institutional": false
+        "tier": "wide"
     },
     "HUM-PERP": {
         "ask": 0.245975,
@@ -2988,8 +2921,7 @@
         "future_volume_avg": 1760981.7880037,
         "concentration_limit_long": 8369.06915513651,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "IMX-PERP": {
         "ask": 1.60625,
@@ -3032,8 +2964,7 @@
         "future_volume_avg": 2865642.43604966,
         "concentration_limit_long": 119401.768168736,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "KBTT-PERP": {
         "ask": 0.00181,
@@ -3076,8 +3007,7 @@
         "future_volume_avg": 531138.312847144,
         "concentration_limit_long": 12617.3265501672,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "KIN-PERP": {
         "ask": 3.817e-05,
@@ -3120,8 +3050,7 @@
         "future_volume_avg": 2842601.30619565,
         "concentration_limit_long": 42290.7191179547,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "KNC-PERP": {
         "ask": 2.9308,
@@ -3164,8 +3093,7 @@
         "future_volume_avg": 10190230.8961153,
         "concentration_limit_long": 59515.3067499213,
         "concentration_limit_short": 59515.3067499213,
-        "is_wide": true,
-        "is_institutional": false
+        "tier": "wide"
     },
     "KSHIB-PERP": {
         "ask": 0.02239,
@@ -3208,8 +3136,7 @@
         "future_volume_avg": 15292954.8120871,
         "concentration_limit_long": 35459.1469967978,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "KSOS-PERP": {
         "ask": 0.001693,
@@ -3252,8 +3179,7 @@
         "future_volume_avg": 2799452.14015585,
         "concentration_limit_long": 7648.8606489138,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "LEO-PERP": {
         "ask": 6.1687,
@@ -3296,8 +3222,7 @@
         "future_volume_avg": 3162311.73414197,
         "concentration_limit_long": 22045.0247898195,
         "concentration_limit_short": 22045.0247898195,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "LINA-PERP": {
         "ask": 0.020375,
@@ -3340,8 +3265,7 @@
         "future_volume_avg": 4503969.15257214,
         "concentration_limit_long": 12381.8598649005,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "LINK-PERP": {
         "ask": 14.579,
@@ -3384,8 +3308,7 @@
         "future_volume_avg": 121224483.613074,
         "concentration_limit_long": 768309.386625035,
         "concentration_limit_short": 768309.386625035,
-        "is_wide": true,
-        "is_institutional": true
+        "tier": "wide"
     },
     "LINK-0325": {
         "ask": 14.593,
@@ -3428,8 +3351,7 @@
         "future_volume_avg": 1661413.20171975,
         "concentration_limit_long": 69225.5500716564,
         "concentration_limit_short": 69225.5500716564,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "LOOKS-PERP": {
         "ask": 1.208,
@@ -3472,8 +3394,7 @@
         "future_volume_avg": 93887729.0125633,
         "concentration_limit_long": 488698.515318045,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": true
+        "tier": "institutional"
     },
     "LRC-PERP": {
         "ask": 0.70985,
@@ -3516,8 +3437,7 @@
         "future_volume_avg": 29303295.5858665,
         "concentration_limit_long": 76086.3636284822,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "LTC-PERP": {
         "ask": 108.81,
@@ -3560,8 +3480,7 @@
         "future_volume_avg": 73786112.0123839,
         "concentration_limit_long": 780638.518936372,
         "concentration_limit_short": 780638.518936372,
-        "is_wide": true,
-        "is_institutional": true
+        "tier": "wide"
     },
     "LTC-0325": {
         "ask": 108.71,
@@ -3604,8 +3523,7 @@
         "future_volume_avg": 3332738.4897865,
         "concentration_limit_long": 138864.103741104,
         "concentration_limit_short": 138864.103741104,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "MANA-PERP": {
         "ask": 2.4216,
@@ -3648,8 +3566,7 @@
         "future_volume_avg": 74771495.2600415,
         "concentration_limit_long": 309405.470243683,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": true
+        "tier": "institutional"
     },
     "MAPS-PERP": {
         "ask": 0.9071,
@@ -3692,8 +3609,7 @@
         "future_volume_avg": 4455756.80850125,
         "concentration_limit_long": 8760.68398852383,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "MATIC-PERP": {
         "ask": 1.4418925,
@@ -3736,8 +3652,7 @@
         "future_volume_avg": 207972157.031198,
         "concentration_limit_long": 1854784.77296306,
         "concentration_limit_short": 1854784.77296306,
-        "is_wide": true,
-        "is_institutional": true
+        "tier": "wide"
     },
     "MCB-PERP": {
         "ask": 4.31,
@@ -3780,8 +3695,7 @@
         "future_volume_avg": 938521.983838223,
         "concentration_limit_long": 6738.54925985655,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "MER-PERP": {
         "ask": 0.1024,
@@ -3824,8 +3738,7 @@
         "future_volume_avg": 697182.475605368,
         "concentration_limit_long": 6038.42794345211,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "MKR-PERP": {
         "ask": 1968,
@@ -3868,8 +3781,7 @@
         "future_volume_avg": 8478319.75326608,
         "concentration_limit_long": 46070.7039187876,
         "concentration_limit_short": 46070.7039187876,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "MNGO-PERP": {
         "ask": 0.150275,
@@ -3912,8 +3824,7 @@
         "future_volume_avg": 968579.342182323,
         "concentration_limit_long": 20703.4726516659,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "MTA-PERP": {
         "ask": 0.3765,
@@ -3956,8 +3867,7 @@
         "future_volume_avg": 1132387.88115132,
         "concentration_limit_long": 10643.9737140213,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "OKB-PERP": {
         "ask": 19.493,
@@ -4000,8 +3910,7 @@
         "future_volume_avg": 5082956.37986643,
         "concentration_limit_long": 24532.7433267469,
         "concentration_limit_short": 24532.7433267469,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "OKB-0325": {
         "ask": 19.46,
@@ -4044,8 +3953,7 @@
         "future_volume_avg": 153584.424712196,
         "concentration_limit_long": 6399.35102967485,
         "concentration_limit_short": 6399.35102967485,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "OMG-PERP": {
         "ask": 4.118,
@@ -4088,8 +3996,7 @@
         "future_volume_avg": 14150434.039787,
         "concentration_limit_long": 211990.826680588,
         "concentration_limit_short": 211990.826680588,
-        "is_wide": true,
-        "is_institutional": false
+        "tier": "wide"
     },
     "OMG-0325": {
         "ask": 4.082,
@@ -4132,8 +4039,7 @@
         "future_volume_avg": 596594.951777669,
         "concentration_limit_long": 24858.1229907362,
         "concentration_limit_short": 24858.1229907362,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "OXY-PERP": {
         "ask": 0.334,
@@ -4176,8 +4082,7 @@
         "future_volume_avg": 1578472.40914373,
         "concentration_limit_long": 15908.249819019,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "PAXG-PERP": {
         "ask": 1952.3,
@@ -4220,8 +4125,7 @@
         "future_volume_avg": 754571.161743637,
         "concentration_limit_long": 29394.3004460481,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "PEOPLE-PERP": {
         "ask": 0.06103,
@@ -4264,8 +4168,7 @@
         "future_volume_avg": 30453406.1274643,
         "concentration_limit_long": 8645.53573153296,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "PERP-PERP": {
         "ask": 3.855,
@@ -4308,8 +4211,7 @@
         "future_volume_avg": 5881802.30927645,
         "concentration_limit_long": 71536.5653313281,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "POLIS-PERP": {
         "ask": 1.391975,
@@ -4352,8 +4254,7 @@
         "future_volume_avg": 2626477.50292434,
         "concentration_limit_long": 109436.562621848,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "PUNDIX-PERP": {
         "ask": 0.734,
@@ -4396,8 +4297,7 @@
         "future_volume_avg": 1716459.34209329,
         "concentration_limit_long": 2993.26884081444,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "RAY-PERP": {
         "ask": 2.4849,
@@ -4440,8 +4340,7 @@
         "future_volume_avg": 11395519.1162221,
         "concentration_limit_long": 399839.181592503,
         "concentration_limit_short": 399839.181592503,
-        "is_wide": true,
-        "is_institutional": true
+        "tier": "wide"
     },
     "REEF-PERP": {
         "ask": 0.00856,
@@ -4484,8 +4383,7 @@
         "future_volume_avg": 4739522.44820491,
         "concentration_limit_long": 7083.00820242943,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "REN-PERP": {
         "ask": 0.3356,
@@ -4528,8 +4426,7 @@
         "future_volume_avg": 7243641.67558778,
         "concentration_limit_long": 40335.2412657335,
         "concentration_limit_short": 40335.2412657335,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "RNDR-PERP": {
         "ask": 2.503,
@@ -4572,8 +4469,7 @@
         "future_volume_avg": 10287725.591169,
         "concentration_limit_long": 63364.7266923805,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "ROOK-PERP": {
         "ask": 108.1,
@@ -4616,8 +4512,7 @@
         "future_volume_avg": 1264571.97113448,
         "concentration_limit_long": 15543.9034043036,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "RSR-PERP": {
         "ask": 0.014015,
@@ -4660,8 +4555,7 @@
         "future_volume_avg": 7302716.78212031,
         "concentration_limit_long": 105281.442601388,
         "concentration_limit_short": 105281.442601388,
-        "is_wide": true,
-        "is_institutional": false
+        "tier": "wide"
     },
     "RUNE-PERP": {
         "ask": 8.394,
@@ -4704,8 +4598,7 @@
         "future_volume_avg": 16680106.5836835,
         "concentration_limit_long": 183728.19820634,
         "concentration_limit_short": 183728.19820634,
-        "is_wide": true,
-        "is_institutional": false
+        "tier": "wide"
     },
     "SAND-PERP": {
         "ask": 3.15075,
@@ -4748,8 +4641,7 @@
         "future_volume_avg": 120434063.53725,
         "concentration_limit_long": 437070.736672605,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": true
+        "tier": "institutional"
     },
     "SECO-PERP": {
         "ask": 9.5531,
@@ -4792,8 +4684,7 @@
         "future_volume_avg": 335534.830747247,
         "concentration_limit_long": 3220.85607376215,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "SHIB-PERP": {
         "ask": 2.238e-05,
@@ -4836,8 +4727,7 @@
         "future_volume_avg": 26019728.9759889,
         "concentration_limit_long": 243930.412689958,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": true
+        "tier": "institutional"
     },
     "SKL-PERP": {
         "ask": 0.1249,
@@ -4880,8 +4770,7 @@
         "future_volume_avg": 3818247.88426173,
         "concentration_limit_long": 6877.88432406293,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "SLP-PERP": {
         "ask": 0.017525,
@@ -4924,8 +4813,7 @@
         "future_volume_avg": 38222960.4671272,
         "concentration_limit_long": 123212.024956386,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "SNX-PERP": {
         "ask": 4.4345,
@@ -4968,8 +4856,7 @@
         "future_volume_avg": 10269266.1496515,
         "concentration_limit_long": 34760.4172940768,
         "concentration_limit_short": 34760.4172940768,
-        "is_wide": true,
-        "is_institutional": false
+        "tier": "wide"
     },
     "SOL-PERP": {
         "ask": 86.7625,
@@ -5012,8 +4899,7 @@
         "future_volume_avg": 538335656.133515,
         "concentration_limit_long": 6912371.56976351,
         "concentration_limit_short": 6912371.56976351,
-        "is_wide": true,
-        "is_institutional": true
+        "tier": "wide"
     },
     "SOL-0325": {
         "ask": 86.6725,
@@ -5056,8 +4942,7 @@
         "future_volume_avg": 6588136.37607852,
         "concentration_limit_long": 274505.682336605,
         "concentration_limit_short": 274505.682336605,
-        "is_wide": true,
-        "is_institutional": true
+        "tier": "wide"
     },
     "SOS-PERP": {
         "ask": 1.7e-06,
@@ -5100,8 +4985,7 @@
         "future_volume_avg": 1082039.30119131,
         "concentration_limit_long": 3103.71964400841,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "SPELL-PERP": {
         "ask": 0.003445,
@@ -5144,8 +5028,7 @@
         "future_volume_avg": 31906329.1205137,
         "concentration_limit_long": 370977.454081212,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "SRM-PERP": {
         "ask": 1.859,
@@ -5188,8 +5071,7 @@
         "future_volume_avg": 20239865.6924535,
         "concentration_limit_long": 310556.508253124,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "STEP-PERP": {
         "ask": 0.155,
@@ -5232,8 +5114,7 @@
         "future_volume_avg": 3951756.44360407,
         "concentration_limit_long": 103770.614767631,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "STORJ-PERP": {
         "ask": 1.037,
@@ -5276,8 +5157,7 @@
         "future_volume_avg": 8577556.55478908,
         "concentration_limit_long": 11072.0864096946,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "SUSHI-PERP": {
         "ask": 3.1761,
@@ -5320,8 +5200,7 @@
         "future_volume_avg": 62688176.0611025,
         "concentration_limit_long": 581150.840972767,
         "concentration_limit_short": 581150.840972767,
-        "is_wide": true,
-        "is_institutional": true
+        "tier": "wide"
     },
     "SUSHI-0325": {
         "ask": 3.1744,
@@ -5364,8 +5243,7 @@
         "future_volume_avg": 714197.743445153,
         "concentration_limit_long": 29758.2393102147,
         "concentration_limit_short": 29758.2393102147,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "SXP-PERP": {
         "ask": 1.374,
@@ -5408,8 +5286,7 @@
         "future_volume_avg": 13790330.7046323,
         "concentration_limit_long": 171119.849298982,
         "concentration_limit_short": 171119.849298982,
-        "is_wide": true,
-        "is_institutional": false
+        "tier": "wide"
     },
     "SXP-0325": {
         "ask": 1.3715,
@@ -5452,8 +5329,7 @@
         "future_volume_avg": 326115.521801227,
         "concentration_limit_long": 13588.1467417178,
         "concentration_limit_short": 13588.1467417178,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "TLM-PERP": {
         "ask": 0.09965,
@@ -5496,8 +5372,7 @@
         "future_volume_avg": 5122463.35294456,
         "concentration_limit_long": 7810.6212720037,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "TOMO-PERP": {
         "ask": 1.17925,
@@ -5540,8 +5415,7 @@
         "future_volume_avg": 2033496.92434234,
         "concentration_limit_long": 20577.3116495326,
         "concentration_limit_short": 20577.3116495326,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "TONCOIN-PERP": {
         "ask": 1.857,
@@ -5584,8 +5458,7 @@
         "future_volume_avg": 5343632.12343026,
         "concentration_limit_long": 83096.3512987506,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "TRU-PERP": {
         "ask": 0.187025,
@@ -5628,8 +5501,7 @@
         "future_volume_avg": 5522517.14273253,
         "concentration_limit_long": 17053.6867261106,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "TRX-PERP": {
         "ask": 0.060705,
@@ -5672,8 +5544,7 @@
         "future_volume_avg": 13412267.9300266,
         "concentration_limit_long": 249698.74577123,
         "concentration_limit_short": 249698.74577123,
-        "is_wide": true,
-        "is_institutional": true
+        "tier": "wide"
     },
     "TRX-0325": {
         "ask": 0.060625,
@@ -5716,8 +5587,7 @@
         "future_volume_avg": 714452.411069448,
         "concentration_limit_long": 29768.850461227,
         "concentration_limit_short": 29768.850461227,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "TRYB-PERP": {
         "ask": 0.06781,
@@ -5760,8 +5630,7 @@
         "future_volume_avg": 989098.171027636,
         "concentration_limit_long": 41212.4237928181,
         "concentration_limit_short": 41212.4237928181,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "TULIP-PERP": {
         "ask": 10.5625,
@@ -5804,8 +5673,7 @@
         "future_volume_avg": 836138.948412772,
         "concentration_limit_long": 10097.7711797779,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "UNI-PERP": {
         "ask": 9.108,
@@ -5848,8 +5716,7 @@
         "future_volume_avg": 19589446.9106788,
         "concentration_limit_long": 213741.602404813,
         "concentration_limit_short": 213741.602404813,
-        "is_wide": true,
-        "is_institutional": false
+        "tier": "wide"
     },
     "UNI-0325": {
         "ask": 9.124,
@@ -5892,8 +5759,7 @@
         "future_volume_avg": 301139.768261595,
         "concentration_limit_long": 12547.4903442331,
         "concentration_limit_short": 12547.4903442331,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "USDT-PERP": {
         "ask": 1.0003,
@@ -5936,8 +5802,7 @@
         "future_volume_avg": 19796522.046859,
         "concentration_limit_long": 824855.085285794,
         "concentration_limit_short": 824855.085285794,
-        "is_wide": true,
-        "is_institutional": true
+        "tier": "wide"
     },
     "USDT-0325": {
         "ask": 0.9995,
@@ -5980,8 +5845,7 @@
         "future_volume_avg": 144416.860239018,
         "concentration_limit_long": 6017.36917662577,
         "concentration_limit_short": 6017.36917662577,
-        "is_wide": true,
-        "is_institutional": false
+        "tier": "wide"
     },
     "UST-PERP": {
         "ask": 1.0033,
@@ -6024,8 +5888,7 @@
         "future_volume_avg": 2259803.41543311,
         "concentration_limit_long": 75460.3539830464,
         "concentration_limit_short": 75460.3539830464,
-        "is_wide": true,
-        "is_institutional": false
+        "tier": "wide"
     },
     "WAVES-PERP": {
         "ask": 27.5975,
@@ -6068,8 +5931,7 @@
         "future_volume_avg": 12956433.5144813,
         "concentration_limit_long": 7167.48600335493,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "WAVES-0325": {
         "ask": 27.2995,
@@ -6112,8 +5974,7 @@
         "future_volume_avg": 154184.611133742,
         "concentration_limit_long": 6424.35879723926,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "XAUT-PERP": {
         "ask": 1941.2,
@@ -6156,8 +6017,7 @@
         "future_volume_avg": 663239.019676076,
         "concentration_limit_long": 7117.90696719112,
         "concentration_limit_short": 7117.90696719112,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "XRP-PERP": {
         "ask": 0.78455,
@@ -6200,8 +6060,7 @@
         "future_volume_avg": 146843387.868153,
         "concentration_limit_long": 1460779.13249667,
         "concentration_limit_short": 1460779.13249667,
-        "is_wide": true,
-        "is_institutional": true
+        "tier": "wide"
     },
     "XRP-0325": {
         "ask": 0.7847,
@@ -6244,8 +6103,7 @@
         "future_volume_avg": 1852593.01104515,
         "concentration_limit_long": 77191.3754602147,
         "concentration_limit_short": 77191.3754602147,
-        "is_wide": true,
-        "is_institutional": false
+        "tier": "wide"
     },
     "YFI-PERP": {
         "ask": 19150,
@@ -6288,8 +6146,7 @@
         "future_volume_avg": 36440761.1928366,
         "concentration_limit_long": 280810.302457196,
         "concentration_limit_short": 280810.302457196,
-        "is_wide": true,
-        "is_institutional": true
+        "tier": "wide"
     },
     "YFI-0325": {
         "ask": 19120,
@@ -6332,8 +6189,7 @@
         "future_volume_avg": 199384.56,
         "concentration_limit_long": 8307.69,
         "concentration_limit_short": 8307.69,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "YFII-PERP": {
         "ask": 2034.5,
@@ -6376,8 +6232,7 @@
         "future_volume_avg": 2026242.26365016,
         "concentration_limit_long": 2259.28366797779,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     },
     "ZRX-PERP": {
         "ask": 0.50825,
@@ -6420,7 +6275,6 @@
         "future_volume_avg": 2969959.54638963,
         "concentration_limit_long": 6786.24854187876,
         "concentration_limit_short": 0,
-        "is_wide": false,
-        "is_institutional": false
+        "tier": "max"
     }
 }
