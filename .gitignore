@@ -1,0 +1,10 @@
+# Ignores everything in current directory
+/*
+
+# But the .gitignore
+!/.gitignore
+
+# Un-ignore these subdirectory
+!/prod/
+!/dev/
+!/test/
