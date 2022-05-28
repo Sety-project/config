@@ -12,7 +12,7 @@
         "comment": ""
     },
     "EQUITY": {
-        "value": "sysperp",
+        "value": "SysPerp",
         "comment": "all lowercase among sysperp/depth/backtest. subaccount, filename or number"
     },
     "OPEN_ORDERS_HEADROOM": {
