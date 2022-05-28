@@ -12,8 +12,8 @@
         "comment": ""
     },
     "EQUITY": {
-        "value": "SysPerp",
-        "comment": "subaccount, filename or number"
+        "value": "sysperp",
+        "comment": "all lowercase among sysperp/depth/backtest. subaccount, filename or number"
     },
     "OPEN_ORDERS_HEADROOM": {
         "value": 0.05,
@@ -40,7 +40,7 @@
         "comment": "max hourly volume and open interest share"
     },
     "MINIMUM_CARRY": {
-        "value": 0.03,
+        "value": 0.07,
         "comment": "screens out low carry underlyings"
     },
     "REBASE_TOKENS": {
@@ -124,8 +124,10 @@
         "comment": ""
     },
     "TYPE_ALLOWED": {
-        "value": "perpetual+",
-        "comment": "must contain '+'"
+        "value": [
+            "perpetual"
+        ],
+        "comment": "value should be a list. No need to contain +"
     },
     "USE_OTC": {
         "value": false,
