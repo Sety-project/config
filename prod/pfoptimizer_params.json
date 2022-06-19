@@ -111,7 +111,7 @@
     },
     "EXCLUSION_LIST": {
         "value": [
-            "OMG",
+            "CEL",
 	    "UST",
 	    "KNC"
         ],
