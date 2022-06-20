@@ -111,8 +111,9 @@
     },
     "EXCLUSION_LIST": {
         "value": [
-            "OMG",
-	    "UST"
+            "CEL",
+	    "UST",
+	    "KNC"
         ],
         "comment": ""
     },
