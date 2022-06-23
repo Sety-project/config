@@ -32,11 +32,11 @@
         "comment": ""
     },
     "CONCENTRATION_LIMIT": {
-        "value": 9,
+        "value": 3,
         "comment": "max size/equity"
     },
     "MKTSHARE_LIMIT": {
-        "value": 1,
+        "value": 0.1,
         "comment": "max hourly volume and open interest share"
     },
     "MINIMUM_CARRY": {
@@ -111,8 +111,6 @@
     },
     "EXCLUSION_LIST": {
         "value": [
-            "CEL",
-	    "UST",
 	    "KNC"
         ],
         "comment": ""
