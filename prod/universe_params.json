@@ -1,10 +1,4 @@
 {
-    "run": {
-        "run_date": "2022-03-17 10:11:37",
-        "universe_start": "2021-12-01 00:00:00",
-        "universe_end": "2022-03-01 00:00:00",
-        "borrow_decile": "0.5"
-    },
     "screening": {
     	"max": {
     	    "future_volume_threshold": 50000,
