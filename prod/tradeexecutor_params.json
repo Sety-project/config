@@ -14,5 +14,5 @@
     "stop_tolerance": 5.0,
     "check_frequency": 60,
     "delta_limit": 0.25,
-    "comment": "code change description"
+    "comment": "trim to margin headroom"
 }
