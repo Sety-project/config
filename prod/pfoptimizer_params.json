@@ -16,7 +16,7 @@
         "comment": "all lowercase among sysperp/depth/backtest. subaccount, filename or number"
     },
     "OPEN_ORDERS_HEADROOM": {
-        "value": 0.05,
+        "value": 0.01,
         "comment": "related to nb underlying * slice size"
     },
     "SIGNAL_HORIZON": {
@@ -32,7 +32,7 @@
         "comment": ""
     },
     "CONCENTRATION_LIMIT": {
-        "value": 3,
+        "value": 1,
         "comment": "max size/equity"
     },
     "MKTSHARE_LIMIT": {
