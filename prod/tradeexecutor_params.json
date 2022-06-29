@@ -9,10 +9,10 @@
     "entry_tolerance": 1.1,
     "rush_tolerance": -0.1,
     "stdev_window": 3600,
-    "edit_price_tolerance": 1.0,
+    "edit_price_tolerance": 0.25,
     "aggressive_edit_price_tolerance": 2,
-    "edit_trigger_tolerance":  3.0,
-    "stop_tolerance": 5.0,
+    "edit_trigger_tolerance":  1.0,
+    "stop_tolerance": 2.0,
     "check_frequency": 60,
     "delta_limit": 0.25,
     "comment": "less order in flight, floored edits"
