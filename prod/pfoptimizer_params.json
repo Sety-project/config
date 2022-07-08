@@ -11,12 +11,12 @@
         "value": 0.1,
         "comment": ""
     },
-    "EQUITY": {
-        "value": "SysPerp",
-        "comment": "all lowercase among sysperp/depth/backtest. subaccount, filename or number"
+    "EQUITY_OVERRIDE": {
+        "value": "None",
+        "comment": "uses subaccount balance if None"
     },
     "OPEN_ORDERS_HEADROOM": {
-        "value": 0.01,
+        "value": 0.1,
         "comment": "related to nb underlying * slice size"
     },
     "SIGNAL_HORIZON": {
