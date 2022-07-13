@@ -24,11 +24,11 @@
         "comment": ""
     },
     "HOLDING_PERIOD": {
-        "value": "2h",
+        "value": "2d",
         "comment": ""
     },
     "SLIPPAGE_OVERRIDE": {
-        "value": 0,
+        "value": 0.0005,
         "comment": ""
     },
     "CONCENTRATION_LIMIT": {
