@@ -24,7 +24,7 @@
         "comment": ""
     },
     "HOLDING_PERIOD": {
-        "value": "2d",
+        "value": "7d",
         "comment": ""
     },
     "SLIPPAGE_OVERRIDE": {
