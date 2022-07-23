@@ -120,6 +120,10 @@
         "value": 0.1,
         "comment": ""
     },
+    "NB_COINS": {
+        "value": 5,
+        "comment": "nb_coin if int, else expected carry quantile"
+    },
     "UNIVERSE": {
         "value": "wide",
         "comment": ""
