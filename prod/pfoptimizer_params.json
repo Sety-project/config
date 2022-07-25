@@ -28,7 +28,7 @@
         "comment": ""
     },
     "SLIPPAGE_OVERRIDE": {
-        "value": 0.0002,
+        "value": 0.0005,
         "comment": ""
     },
     "CONCENTRATION_LIMIT": {
