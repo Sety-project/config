@@ -4,25 +4,30 @@
     "entry_tolerance": 2,
     "rush_in_tolerance": -1,
     "rush_out_tolerance": 2,
-    "stdev_window": 3600,
     "edit_price_tolerance": 0.25,
-    "aggressive_edit_price_tolerance": "rush_out",
+    "aggressive_edit_price_tolerance": "taker_hedge",
     "edit_trigger_tolerance":  1.0,
     "stop_tolerance": 2.0,
     "cache_size": 10000,
     "order_manager": {},
+    "inventory_manager":
+        {
+        "signal": "vwap"
+        },
     "position_manager":
         {
             "check_frequency": 60,
             "global_beta": 0.7,
-            "delta_limit": 0.50
+            "delta_limit": 0.5
         },
     "analytics_manager":
         {
-            "check_frequency": 60,
+            "compile_frequency": 300,
             "cache_size": 100000,
             "stdev_window": 3600,
-            "options": []
+            "record_set": [],
+            "orderbook_granularity": ["mid"],
+            "n_paths": 10
         },
     "comment": "refactor"
 }
