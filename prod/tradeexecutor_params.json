@@ -24,7 +24,7 @@
     },
     "venue_api":
     {
-        "exchange_name": "ftx",
+        "exchange": "ftx",
         "subaccount": "debug",
         "cache_size": 100000
     },
