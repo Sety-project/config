@@ -3,9 +3,9 @@
     {
         "significance_threshold": 0.01,
         "volume_share": 1,
-        "entry_tolerance": 0.5,
-        "rush_in_tolerance": 0.1,
-        "rush_out_tolerance": 0.9,
+        "entry_tolerance": 0.7,
+        "rush_in_tolerance": -1,
+        "rush_out_tolerance": 2,
         "edit_price_tolerance": 0.25,
         "aggressive_edit_price_increments": 2,
         "aggressive_edit_trigger_increments": 5,
