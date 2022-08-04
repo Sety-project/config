@@ -11,7 +11,8 @@
         "aggressive_edit_trigger_increments": 5,
         "edit_trigger_tolerance":  0.5,
         "stop_tolerance": 1.0,
-        "cache_size": 10000
+        "cache_size": 10000,
+        "options": ['verbose']
     },
     "signal_engine":
     {
