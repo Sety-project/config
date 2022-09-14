@@ -32,7 +32,7 @@
     "order_manager": {},
     "position_manager":
     {
-        "check_frequency": 60,
+        "check_frequency": 300,
         "global_beta": 0.7,
         "delta_limit": 0.25,
         "im_buffer": 0.1
