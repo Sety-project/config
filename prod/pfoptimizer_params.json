@@ -16,7 +16,7 @@
         "comment": "uses subaccount balance if None"
     },
     "OPEN_ORDERS_HEADROOM": {
-        "value": 0.1,
+        "value": 0.2,
         "comment": "related to nb underlying * slice size"
     },
     "SIGNAL_HORIZON": {
