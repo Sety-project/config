@@ -35,7 +35,7 @@
         "check_frequency": 60,
         "global_beta": 0.7,
         "delta_limit": 0.25,
-        "im_buffer": 0.1
+        "im_buffer": 0.01
     },
     "comment": "refactor"
 }
