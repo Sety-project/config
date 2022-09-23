@@ -16,7 +16,7 @@
         "comment": "uses subaccount balance if None"
     },
     "OPEN_ORDERS_HEADROOM": {
-        "value": 0.2,
+        "value": 0.25,
         "comment": "related to nb underlying * slice size"
     },
     "SIGNAL_HORIZON": {
@@ -28,7 +28,7 @@
         "comment": ""
     },
     "SLIPPAGE_OVERRIDE": {
-        "value": 0.0000,
+        "value": 0.0005,
         "comment": ""
     },
     "CONCENTRATION_LIMIT": {
@@ -36,7 +36,7 @@
         "comment": "max size/equity"
     },
     "MKTSHARE_LIMIT": {
-        "value": 0.1,
+        "value": 0.25,
         "comment": "max hourly volume and open interest share"
     },
     "MINIMUM_CARRY": {
@@ -110,10 +110,7 @@
         "comment": ""
     },
     "EXCLUSION_LIST": {
-        "value": [
-            "KNC",
-            "USDT"
-        ],
+        "value": [],
         "comment": "USDT mid never changes, KNC margin wrong in API"
     },
     "DELTA_BLOWUP_ALERT": {
