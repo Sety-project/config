@@ -110,7 +110,7 @@
         "comment": ""
     },
     "EXCLUSION_LIST": {
-        "value": [],
+        "value": ["KNC"],
         "comment": "USDT mid never changes, KNC margin wrong in API"
     },
     "DELTA_BLOWUP_ALERT": {
