@@ -3,11 +3,11 @@
     {
         "type": "spread_distribution",
         "significance_threshold": 0.01,
-        "volume_share": 1,
-        "rate_quantile_in": 0.75,
-        "rate_quantile_out": 0.25,
-        "edit_price_increments": 0.25,
-        "edit_trigger_increments":  0.5,
+        "volume_share": 0.25,
+        "rate_quantile_in": 0.9,
+        "rate_quantile_out": 0.1,
+        "edit_price_increments": 2,
+        "edit_trigger_increments":  10,
         "cache_size": 10000,
         "options": ["verbose"]
     },
@@ -32,7 +32,7 @@
         "check_frequency": 60,
         "global_beta": 0.7,
         "delta_limit": 0.25,
-        "im_buffer": 0.01
+        "im_buffer": 0.1
     },
     "comment": "entry_tolerance is a quantlie for algo strats"
 }
