@@ -1,0 +1,65 @@
+{
+    "strategy":
+    {
+        "type": "hedged_lp",
+        "safe_gather_limit": 10,
+        "hedge_ratio": 1,
+        "delta_buffer": 0.2,
+        "hedge_tx_cost": 0.0005
+    },
+    "signal_engine":
+    {
+        "type": "external",
+        "compile_frequency": 3600,
+        "stdev_window": 3600,
+        "record_set": []
+    },
+    "venue_api":
+    {
+        "exchange": "gmx",
+        "account": "0x5A28769791dE35b1BE82983a0f5e8aB6D5215722"
+    },
+    "order_manager": {},
+    "position_manager":
+    {
+        "check_frequency": 60,
+        "delta_limit": 1e-2
+    },
+    "hedge_strategy":
+    {
+        "strategy":
+        {
+            "type": "execution",
+            "significance_threshold": 0.01,
+            "volume_share": 0,
+            "entry_tolerance": 2,
+            "rush_in_tolerance": -1,
+            "rush_out_tolerance": 2,
+            "edit_price_tolerance": 0.25,
+            "aggressive_edit_price_increments": 2,
+            "aggressive_edit_trigger_increments": 5,
+            "edit_trigger_tolerance": 0.5,
+            "stop_tolerance": 1.0,
+            "options": ["verbose"]
+        },
+        "signal_engine": {
+            "type": "parent_strategy",
+            "compile_frequency": 60,
+            "stdev_window": 3600,
+            "record_set": [],
+            "orderbook_granularity": ["mid"]
+        },
+        "venue_api": {
+            "exchange": "ftx",
+            "subaccount": "hummingbot"
+        },
+        "order_manager": {},
+        "position_manager": {
+            "check_frequency": 60,
+            "global_beta": 0.7,
+            "delta_limit": 0.25,
+            "im_buffer": 0.01
+        }
+    },
+    "comment": "dual strategy"
+}
