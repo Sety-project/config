@@ -1,42 +1,63 @@
 {
     "strategy":
     {
-        "type": "execution",
-        "significance_threshold": 0.01,
-        "volume_share": 1,
-        "entry_tolerance": 2,
-        "rush_in_tolerance": -1,
-        "rush_out_tolerance": 2,
-        "edit_price_tolerance": 0.25,
-        "aggressive_edit_price_increments": 2,
-        "aggressive_edit_trigger_increments": 5,
-        "edit_trigger_tolerance":  0.5,
-        "stop_tolerance": 1.0,
-        "cache_size": 10000,
-        "options": ["verbose"]
+        "type": "hedged_lp",
+        "hedge_ratio": 1,
+        "delta_buffer": 0.2,
+        "hedge_tx_cost": 0.0005
     },
     "signal_engine":
     {
         "type": "external",
-        "compile_frequency": 300,
-        "cache_size": 100000,
-        "stdev_window": 3600,
-        "record_set": ["spread_distribution","spread_trades"],
-        "orderbook_granularity": ["mid"]
+        "record_set": ["pnlexplain"]
     },
     "venue_api":
     {
-        "exchange": "ftx",
-        "subaccount": "debug",
-        "cache_size": 100000
+        "exchange": "gmx",
+        "wallet": "0xFaf2A8b5fa78cA2786cEf5F7e19f6942EC7cB531"
     },
     "order_manager": {},
     "position_manager":
     {
+        "exchange": "gmx",
         "check_frequency": 60,
-        "global_beta": 0.7,
-        "delta_limit": 0.25,
-        "im_buffer": 0.01
+        "delta_limit": 1e-2
     },
-    "comment": "entry_tolerance is a quantlie for algo strats"
+    "hedge_strategy":
+    {
+        "strategy":
+        {
+            "type": "execution",
+            "significance_threshold": 0.01,
+            "volume_share": 0,
+            "entry_tolerance": 2,
+            "rush_in_tolerance": -1,
+            "rush_out_tolerance": 2,
+            "edit_price_tolerance": 0.25,
+            "aggressive_edit_price_increments": 2,
+            "aggressive_edit_trigger_increments": 5,
+            "edit_trigger_tolerance": 0.5,
+            "stop_tolerance": 1.0,
+            "options": ["verbose"]
+        },
+        "signal_engine": {
+            "type": "parent_strategy",
+            "stdev_window": 3600,
+            "record_set": [],
+            "orderbook_granularity": ["mid"]
+        },
+        "venue_api": {
+            "exchange": "ftx",
+            "subaccount": "glp"
+        },
+        "order_manager": {},
+        "position_manager": {
+            "exchange": "ftx",
+            "check_frequency": 60,
+            "global_beta": 0.7,
+            "delta_limit": 0.25,
+            "im_buffer": 0.01
+        }
+    },
+    "comment": "dual strategy"
 }
