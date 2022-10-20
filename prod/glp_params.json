@@ -14,7 +14,7 @@
     "venue_api":
     {
         "exchange": "gmx",
-        "account": "0xFaf2A8b5fa78cA2786cEf5F7e19f6942EC7cB531"
+        "wallet": "0xFaf2A8b5fa78cA2786cEf5F7e19f6942EC7cB531"
     },
     "order_manager": {},
     "position_manager":
@@ -48,7 +48,7 @@
         },
         "venue_api": {
             "exchange": "ftx",
-            "subaccount": "hummingbot"
+            "subaccount": "glp"
         },
         "order_manager": {},
         "position_manager": {
