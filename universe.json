@@ -1,0 +1,623 @@
+{
+    "1INCH-PERP": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "AAVE-PERP": {
+        "tier": [
+            "max",
+            "wide",
+            "institutional"
+        ]
+    },
+    "AGLD-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "ALCX-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "ALGO-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "ALICE-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "ALPHA-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "AMPL-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "ANC-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "APE-PERP": {
+        "tier": [
+            "max",
+            "institutional"
+        ]
+    },
+    "ATLAS-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "ATOM-PERP": {
+        "tier": [
+            "max",
+            "wide",
+            "institutional"
+        ]
+    },
+    "AUDIO-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "AVAX-PERP": {
+        "tier": [
+            "max",
+            "wide",
+            "institutional"
+        ]
+    },
+    "AXS-PERP": {
+        "tier": [
+            "max",
+            "wide",
+            "institutional"
+        ]
+    },
+    "BADGER-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "BAL-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "BAND-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "BAT-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "BCH-PERP": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "BIT-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "BNB-PERP": {
+        "tier": [
+            "max",
+            "wide",
+            "institutional"
+        ]
+    },
+    "BNT-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "BOBA-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "BRZ-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "BTC-PERP": {
+        "tier": [
+            "max",
+            "wide",
+            "institutional"
+        ]
+    },
+    "C98-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "CEL-PERP": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "CHR-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "CHZ-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "CLV-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "COMP-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "CREAM-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "CRO-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "CRV-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "CVX-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "DAWN-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "DODO-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "DOGE-PERP": {
+        "tier": [
+            "max",
+            "wide",
+            "institutional"
+        ]
+    },
+    "DOT-PERP": {
+        "tier": [
+            "max",
+            "wide",
+            "institutional"
+        ]
+    },
+    "DYDX-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "EDEN-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "ENJ-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "ENS-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "ETH-PERP": {
+        "tier": [
+            "max",
+            "wide",
+            "institutional"
+        ]
+    },
+    "FIDA-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "FTM-PERP": {
+        "tier": [
+            "max",
+            "wide",
+            "institutional"
+        ]
+    },
+    "FTT-PERP": {
+        "tier": [
+            "max",
+            "institutional"
+        ]
+    },
+    "FXS-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "GAL-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "GALA-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "GMT-PERP": {
+        "tier": [
+            "max",
+            "institutional"
+        ]
+    },
+    "GRT-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "GST-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "HNT-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "HT-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "IMX-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "KBTT-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "KNC-PERP": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "KSHIB-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "KSOS-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "LEO-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "LINA-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "LINK-PERP": {
+        "tier": [
+            "max",
+            "wide",
+            "institutional"
+        ]
+    },
+    "LOOKS-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "LRC-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "LTC-PERP": {
+        "tier": [
+            "max",
+            "wide",
+            "institutional"
+        ]
+    },
+    "MANA-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "MAPS-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "MATIC-PERP": {
+        "tier": [
+            "max",
+            "wide",
+            "institutional"
+        ]
+    },
+    "MKR-PERP": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "MNGO-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "MOB-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "NEAR-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "OKB-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "OMG-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "OXY-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "PAXG-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "PEOPLE-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "PERP-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "POLIS-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "PUNDIX-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "RAMP-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "RAY-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "REEF-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "REN-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "RNDR-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "RSR-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "SAND-PERP": {
+        "tier": [
+            "max",
+            "institutional"
+        ]
+    },
+    "SECO-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "SHIB-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "SKL-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "SLP-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "SNX-PERP": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "SOL-PERP": {
+        "tier": [
+            "max",
+            "wide",
+            "institutional"
+        ]
+    },
+    "SPELL-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "SRM-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "STEP-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "STMX-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "STORJ-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "SUSHI-PERP": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "SXP-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "TLM-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "TOMO-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "TONCOIN-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "TRU-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "TRX-PERP": {
+        "tier": [
+            "max",
+            "wide",
+            "institutional"
+        ]
+    },
+    "TRYB-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "UNI-PERP": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "USDT-PERP": {
+        "tier": [
+            "max",
+            "wide",
+            "institutional"
+        ]
+    },
+    "WAVES-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "XAUT-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "XRP-PERP": {
+        "tier": [
+            "max",
+            "wide",
+            "institutional"
+        ]
+    },
+    "YFI-PERP": {
+        "tier": [
+            "max"
+        ]
+    },
+    "ZRX-PERP": {
+        "tier": [
+            "max"
+        ]
+    }
+}
