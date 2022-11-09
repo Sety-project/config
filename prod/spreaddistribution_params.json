@@ -4,8 +4,7 @@
         "type": "spread_distribution",
         "significance_threshold": 0.01,
         "volume_share": 0.25,
-        "rate_quantile_in": 0.9,
-        "rate_quantile_out": 0.1,
+        "min_carry": 0.15,
         "edit_price_increments": 2,
         "edit_trigger_increments":  10,
         "cache_size": 10000,
@@ -14,10 +13,11 @@
     "signal_engine":
     {
         "type": "spread_distribution",
-        "compile_frequency": 300,
+        "quantile": 0.95,
+        "distribution_window_trades": 50,
         "cache_size": 100000,
         "stdev_window": 3600,
-        "record_set": ["spread_distribution","spread_trades"],
+        "record_set": ["spread_trades","spread_distribution"],
         "orderbook_granularity": ["mid"]
     },
     "venue_api":
