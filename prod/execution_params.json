@@ -33,6 +33,7 @@
     "order_manager": {},
     "position_manager":
     {
+        "exchange": "ftx",
         "check_frequency": 60,
         "global_beta": 0.7,
         "delta_limit": 0.25,
