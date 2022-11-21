@@ -9,7 +9,7 @@
     "signal_engine":
     {
         "type": "external",
-        "record_set": ["pnlexplain"]
+        "record_set": []
     },
     "venue_api":
     {
@@ -37,13 +37,13 @@
             "aggressive_edit_price_increments": 2,
             "aggressive_edit_trigger_increments": 5,
             "edit_trigger_tolerance": 0.1,
-            "stop_tolerance": 0.25,
+            "stop_tolerance": 1,
             "options": ["verbose"]
         },
         "signal_engine": {
             "type": "parent_strategy",
             "stdev_window": 3600,
-            "record_set": [""],
+            "record_set": ["pnlexplain"],
             "orderbook_granularity": ["mid"]
         },
         "venue_api": {
