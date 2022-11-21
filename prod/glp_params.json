@@ -4,12 +4,12 @@
         "type": "hedged_lp",
         "hedge_ratio": 1,
         "delta_buffer": 0.2,
-        "hedge_tx_cost": 0.0005
+        "hedge_tx_cost": 0.0004
     },
     "signal_engine":
     {
         "type": "external",
-        "record_set": []
+        "record_set": ['pnlexplain']
     },
     "venue_api":
     {
@@ -20,7 +20,7 @@
     "position_manager":
     {
         "exchange": "gmx",
-        "check_frequency": 300,
+        "check_frequency": 60,
         "delta_limit": 1e-2
     },
     "hedge_strategy":
@@ -28,27 +28,27 @@
         "strategy":
         {
             "type": "execution",
-            "significance_threshold": 0.01,
+            "significance_threshold": 0.0,
             "volume_share": 0,
             "entry_tolerance": 2,
             "rush_in_tolerance": -1,
             "rush_out_tolerance": 2,
-            "edit_price_tolerance": 0.25,
+            "edit_price_tolerance": 0.1,
             "aggressive_edit_price_increments": 2,
             "aggressive_edit_trigger_increments": 5,
-            "edit_trigger_tolerance": 0.5,
-            "stop_tolerance": 1.0,
+            "edit_trigger_tolerance": 0.1,
+            "stop_tolerance": 0.25,
             "options": ["verbose"]
         },
         "signal_engine": {
             "type": "parent_strategy",
             "stdev_window": 3600,
-            "record_set": ["pnlexplain"],
+            "record_set": [""],
             "orderbook_granularity": ["mid"]
         },
         "venue_api": {
             "exchange": "binanceusdm",
-            "subaccount": "glp"
+            "subaccount": ""
         },
         "order_manager": {},
         "position_manager": {
