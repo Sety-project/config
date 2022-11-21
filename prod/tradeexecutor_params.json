@@ -9,7 +9,7 @@
     "signal_engine":
     {
         "type": "external",
-        "record_set": ['pnlexplain']
+        "record_set": ["pnlexplain"]
     },
     "venue_api":
     {
