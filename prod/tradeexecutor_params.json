@@ -28,7 +28,7 @@
         "strategy":
         {
             "type": "execution",
-            "significance_threshold": 0.01,
+            "significance_threshold": 0.0,
             "volume_share": 0,
             "entry_tolerance": 2,
             "rush_in_tolerance": -1,
