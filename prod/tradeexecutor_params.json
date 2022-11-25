@@ -27,7 +27,8 @@
     {
         "strategy":
         {
-            "type": "TakerHedge"
+            "type": "TakerHedge",
+            "options": ["verbose"]
         },
         "signal_engine": {
             "type": "parent_strategy",
