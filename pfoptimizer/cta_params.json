@@ -17,28 +17,28 @@
         ]
     },
     "run_parameters": {
-        "unit_test": "False",
+        "unit_test": false,
         "no_normalize": ["sign", "big"],
-        "verbose": "False",
+        "verbose": false,
         "splits_for_1000": 2,
         "models": {
             "performance": {
                 "MLPRegressor": {"hidden_layer_sizes": 10},
-                "LassoLarsCV": {"normalize": "True"}
+                "LassoLarsCV": {"normalize": true}
             },
             "sign": {
                 "LogisticRegression": {"max_iter": 1000},
                 "RandomForestClassifier": {"min_samples_split": 10,
                     "n_jobs": -1,
-                    "warm_start": "False"},
-                "SVC": {"kernel": "sigmoid", "probability": "True"}
+                    "warm_start": false},
+                "SVC": {"kernel": "sigmoid", "probability": true}
             },
             "big": {
                 "LogisticRegression": {"max_iter": 1000},
                 "RandomForestClassifier": {"min_samples_split": 10,
                     "n_jobs": -1,
-                    "warm_start": "False"},
-                "SVC": {"kernel": "sigmoid", "probability": "True"}
+                    "warm_start": false},
+                "SVC": {"kernel": "sigmoid", "probability": true}
             }
         }
     },

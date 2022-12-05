@@ -11,9 +11,9 @@
     },
     "run_parameters":
     {
-        "unit_test": "False",
+        "unit_test": false,
         "no_normalize": ["sign", "big"],
-        "verbose": "False",
+        "verbose": false,
         "splits_for_1000": 2,
         "models":
         {
