@@ -1,0 +1,65 @@
+{
+    "data":
+    {
+        "dirname": "/home/david/mktdata/binance/test",
+        "start_date": "2022-08-15T00:00:00",
+        "selected_instruments":
+        [
+            "BTCUSDT",
+            "ETHUSDT"
+        ]
+    },
+    "run_parameters":
+    {
+        "unit_test": "False",
+        "no_normalize": ["sign", "big"],
+        "verbose": "False",
+        "splits_for_1000": 2,
+        "models":
+        {
+            "performance": {"LinearRegression": {}},
+            "sign": {},
+            "big": {}
+        }
+    },
+    "feature_map":
+    {
+        "close":
+        {
+            "transform": "increment",
+            "add_weight_by": "volume",
+            "ewma_windows": [2]
+        },
+        "volume":
+        {
+            "transform": "log",
+            "ewma_windows": [4320]
+        },
+        "taker_imbalance":
+        {
+            "transform": "arctanh",
+            "ewma_windows": []
+        },
+        "premium":
+        {
+            "transform": "passthrough",
+            "add_weight_by": "volume",
+            "ewma_windows": [1]
+        }
+    },
+    "label_map":
+    {
+        "performance":
+        {
+            "horizons": [1]
+        },
+        "sign":
+        {
+            "horizons": [1]
+        },
+        "big":
+        {
+            "horizons": [1]
+        }
+    }
+}
