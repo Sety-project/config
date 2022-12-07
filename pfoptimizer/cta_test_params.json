@@ -14,12 +14,16 @@
         "unit_test": false,
         "no_normalize": ["sign", "big"],
         "verbose": false,
-        "splits_for_1000": 2,
+        "splits_for_1000": 6,
         "models":
         {
             "performance": {"LinearRegression": {}},
-            "sign": {},
-            "big": {}
+            "sign": {
+                "LogisticRegression": {"max_iter": 1000}
+            },
+            "big": {
+                "LogisticRegression": {"max_iter": 1000}
+            }
         }
     },
     "feature_map":
@@ -28,12 +32,12 @@
         {
             "transform": "increment",
             "add_weight_by": "volume",
-            "ewma_windows": [2]
+            "ewma_windows": [5, 15, 60, 240, 1440]
         },
         "volume":
         {
             "transform": "log",
-            "ewma_windows": [4320]
+            "ewma_windows": [1440]
         },
         "taker_imbalance":
         {
@@ -43,8 +47,7 @@
         "premium":
         {
             "transform": "passthrough",
-            "add_weight_by": "volume",
-            "ewma_windows": [1]
+            "ewma_windows": [5, 1440]
         }
     },
     "label_map":
