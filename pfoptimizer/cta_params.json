@@ -24,7 +24,7 @@
         "models": {
             "performance": {
                 "MLPRegressor": {"hidden_layer_sizes": 10},
-                "LassoLars": {"normalize": true}
+                "LassoLars": {}
             },
             "sign": {
                 "LogisticRegression": {"max_iter": 1000},

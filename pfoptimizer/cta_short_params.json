@@ -20,14 +20,20 @@
         "unit_test": false,
         "no_normalize": ["sign", "big"],
         "verbose": false,
-        "splits_for_1000": 4,
+        "splits_for_1000": 6,
         "models": {
-            "performance": {},
+            "performance": {"LinearRegression": {}},
             "sign": {
                 "LogisticRegression": {"max_iter": 1000},
-                "RandomForestClassifier": {"min_samples_split": 10,"n_jobs": -1,"warm_start": false}
+                "RandomForestClassifier": {"min_samples_split": 10,
+                    "n_jobs": -1,
+                    "warm_start": false}
             },
-            "big": {}
+            "big": {
+                "RandomForestClassifier": {"min_samples_split": 10,
+                    "n_jobs": -1,
+                    "warm_start": false}
+            }
         }
     },
     "feature_map": {
@@ -44,7 +50,7 @@
         "premium": {
             "transform": "passthrough",
             "add_weight_by": "volume",
-            "ewma_windows": [5, 60, 1440]}
+            "ewma_windows": [1440]}
     },
     "label_map": {
         "performance": {"horizons": [5, 60, 1440]},
