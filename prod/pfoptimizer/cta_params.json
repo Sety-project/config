@@ -1,0 +1,105 @@
+{
+    "input_data": {
+        "source_type": "read_from_disk",
+        "dirpath": [
+            "mktdata",
+            "binanceusdm"
+        ],
+        "start_date": "2021-08-15T00:00:00",
+        "selected_instruments": [
+            "AAVEUSDT",
+            "ADAUSDT",
+            "AVAXUSDT",
+            "BNBUSDT",
+            "BTCUSDT",
+            "DOGEUSDT",
+            "DOTUSDT",
+            "ETHUSDT",
+            "MATICUSDT",
+            "XRPUSDT"
+        ]
+    },
+    "run_parameters": {
+        "pickle_file": "engine_60.pickle",
+        "unit_test": false,
+        "cross_ewma": false,
+        "models": {
+            "carry": {
+                "RandomForestClassifier": {
+                    "splits_for_1000": 5,
+                    "params": {
+                        "min_samples_split": 10,
+                        "n_jobs": -1,
+                        "warm_start": false,
+                        "class_weight": "balanced_subsample",
+                        "oob_score": true
+                    }
+                }
+            }
+        }
+    },
+    "feature_map": {
+        "close": {
+            "ewma_expansion": {
+                "cross_ewma": false,
+                "weight_by": "volume",
+                "windows": [1, 2, 3, 6, 9, 12]
+            },
+            "max_expansion": {
+                "windows": [1, 2, 3, 6, 9, 12]
+            },
+            "min_expansion": {
+                "windows": [1, 2, 3, 6, 9, 12]
+            },
+            "hvol_expansion": {
+                "incr_window": [
+                    [
+                        1,
+                        12
+                    ]
+                ],
+                "quantiles": [ 0.35, 0.65, 1.0]
+            }
+        },
+        "volume": {
+            "transform": "log",
+            "ewma_expansion": {
+                "windows": [1, 12],
+                "quantiles": [ 0.35, 0.65, 1.0]
+            }
+        },
+        "close_premium": {
+            "ewma_expansion": {
+                "weight_by": "volume",
+                "windows": [1, 12],
+                "quantiles": [ 0.35, 0.65, 1.0]
+            }
+        }
+    },
+    "label_map": {
+        "carry": {
+            "horizons": [10],
+            "carry_buckets": {
+                "big_down": [-999,-0.3],
+                "small_down": [-0.3,-0.1],
+                "0-ish": [-0.1,0.1],
+                "small_up": [0.1,0.3],
+                "big_up": [0.3,999]}
+        }
+    },
+    "strategy": {
+        "type": "carry_strategy",
+        "params": {
+            "class_deltas":  {
+                "big_down": -1,
+                "small_down": -1,
+                "0-ish": 0,
+                "small_up": 1,
+                "big_up": 1},
+            "max_loss_probability": 1
+        }
+    },
+    "backtest": {
+        "tx_cost": 0
+    }
+}

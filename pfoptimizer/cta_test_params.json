@@ -1,7 +1,7 @@
 {
     "input_data":
     {
-        "dirname": "/home/david/mktdata/binance/test",
+        "dirpath": ["mktdata","binance","test"],
         "start_date": "2022-08-15T00:00:00",
         "selected_instruments":
         [
@@ -13,7 +13,7 @@
     {
         "unit_test": false,
         "no_normalize": ["sign", "big"],
-        "verbose": false,
+        "tx_cost": 0,
         "splits_for_1000": 6,
         "models":
         {
@@ -31,7 +31,7 @@
         "close":
         {
             "transform": "increment",
-            "add_weight_by": "volume",
+            "weight_by": "volume",
             "ewma_windows": [5, 15, 60, 240, 1440]
         },
         "volume":

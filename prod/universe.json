@@ -1,0 +1,990 @@
+{
+    "BTCUSDT": {
+        "tier": [
+            "max",
+            "wide",
+            "institutional"
+        ]
+    },
+    "ETHUSDT": {
+        "tier": [
+            "max",
+            "wide",
+            "institutional"
+        ]
+    },
+    "BCHUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "XRPUSDT": {
+        "tier": [
+            "max",
+            "wide",
+            "institutional"
+        ]
+    },
+    "EOSUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "LTCUSDT": {
+        "tier": [
+            "max",
+            "wide",
+            "institutional"
+        ]
+    },
+    "TRXUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "ETCUSDT": {
+        "tier": [
+            "max",
+            "wide",
+            "institutional"
+        ]
+    },
+    "LINKUSDT": {
+        "tier": [
+            "max",
+            "wide",
+            "institutional"
+        ]
+    },
+    "XLMUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "ADAUSDT": {
+        "tier": [
+            "max",
+            "wide",
+            "institutional"
+        ]
+    },
+    "XMRUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "DASHUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "ZECUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "XTZUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "BNBUSDT": {
+        "tier": [
+            "max",
+            "wide",
+            "institutional"
+        ]
+    },
+    "ATOMUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "ONTUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "IOTAUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "BATUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "VETUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "NEOUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "QTUMUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "IOSTUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "THETAUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "ALGOUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "ZILUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "KNCUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "ZRXUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "COMPUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "OMGUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "DOGEUSDT": {
+        "tier": [
+            "max",
+            "wide",
+            "institutional"
+        ]
+    },
+    "SXPUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "KAVAUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "BANDUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "RLCUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "WAVESUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "MKRUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "SNXUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "DOTUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "YFIUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "BALUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "CRVUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "TRBUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "RUNEUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "SUSHIUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "EGLDUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "SOLUSDT": {
+        "tier": [
+            "max",
+            "wide",
+            "institutional"
+        ]
+    },
+    "ICXUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "STORJUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "BLZUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "UNIUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "AVAXUSDT": {
+        "tier": [
+            "max",
+            "wide",
+            "institutional"
+        ]
+    },
+    "FTMUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "HNTUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "ENJUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "FLMUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "TOMOUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "RENUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "KSMUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "NEARUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "AAVEUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "FILUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "RSRUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "LRCUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "MATICUSDT": {
+        "tier": [
+            "max",
+            "wide",
+            "institutional"
+        ]
+    },
+    "OCEANUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "BELUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "CTKUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "AXSUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "ALPHAUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "ZENUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "SKLUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "GRTUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "1INCHUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "BTCBUSD": {
+        "tier": [
+            "max",
+            "wide",
+            "institutional"
+        ]
+    },
+    "CHZUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "SANDUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "ANKRUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "LITUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "UNFIUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "REEFUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "RVNUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "SFPUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "XEMUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "COTIUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "CHRUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "MANAUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "ALICEUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "HBARUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "ONEUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "LINAUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "STMXUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "DENTUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "CELRUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "HOTUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "MTLUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "OGNUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "NKNUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "DGBUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "BAKEUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "GTCUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "ETHBUSD": {
+        "tier": [
+            "max",
+            "wide",
+            "institutional"
+        ]
+    },
+    "BNBBUSD": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "ADABUSD": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "XRPBUSD": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "IOTXUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "DOGEBUSD": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "AUDIOUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "C98USDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "MASKUSDT": {
+        "tier": [
+            "max",
+            "wide",
+            "institutional"
+        ]
+    },
+    "ATAUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "SOLBUSD": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "DYDXUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "GALAUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "CELOUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "ARUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "KLAYUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "ARPAUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "CTSIUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "LPTUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "ENSUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "PEOPLEUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "ANTUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "ROSEUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "DUSKUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "FLOWUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "IMXUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "API3USDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "GMTUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "APEUSDT": {
+        "tier": [
+            "max",
+            "wide",
+            "institutional"
+        ]
+    },
+    "BNXUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "WOOUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "JASMYUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "DARUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "GALUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "AVAXBUSD": {
+        "tier": [
+            "max"
+        ]
+    },
+    "NEARBUSD": {
+        "tier": [
+            "max"
+        ]
+    },
+    "GMTBUSD": {
+        "tier": [
+            "max"
+        ]
+    },
+    "APEBUSD": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "GALBUSD": {
+        "tier": [
+            "max"
+        ]
+    },
+    "FTMBUSD": {
+        "tier": [
+            "max"
+        ]
+    },
+    "DODOBUSD": {
+        "tier": [
+            "max"
+        ]
+    },
+    "GALABUSD": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "TRXBUSD": {
+        "tier": [
+            "max"
+        ]
+    },
+    "OPUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "DOTBUSD": {
+        "tier": [
+            "max"
+        ]
+    },
+    "TLMBUSD": {
+        "tier": [
+            "max"
+        ]
+    },
+    "ICPBUSD": {
+        "tier": [
+            "max"
+        ]
+    },
+    "WAVESBUSD": {
+        "tier": [
+            "max"
+        ]
+    },
+    "LINKBUSD": {
+        "tier": [
+            "max"
+        ]
+    },
+    "SANDBUSD": {
+        "tier": [
+            "max"
+        ]
+    },
+    "LTCBUSD": {
+        "tier": [
+            "max"
+        ]
+    },
+    "MATICBUSD": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "FILBUSD": {
+        "tier": [
+            "max"
+        ]
+    },
+    "LEVERBUSD": {
+        "tier": [
+            "max"
+        ]
+    },
+    "ETCBUSD": {
+        "tier": [
+            "max"
+        ]
+    },
+    "LDOBUSD": {
+        "tier": [
+            "max"
+        ]
+    },
+    "UNIBUSD": {
+        "tier": [
+            "max"
+        ]
+    },
+    "INJUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "STGUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "SPELLUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "AMBBUSD": {
+        "tier": [
+            "max"
+        ]
+    },
+    "PHBBUSD": {
+        "tier": [
+            "max"
+        ]
+    },
+    "LDOUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "CVXUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "ICPUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "APTUSDT": {
+        "tier": [
+            "max",
+            "wide",
+            "institutional"
+        ]
+    },
+    "QNTUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "APTBUSD": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "FETUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "AGIXBUSD": {
+        "tier": [
+            "max"
+        ]
+    },
+    "FXSUSDT": {
+        "tier": [
+            "max"
+        ]
+    },
+    "HOOKUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    },
+    "MAGICUSDT": {
+        "tier": [
+            "max",
+            "wide"
+        ]
+    }
+}

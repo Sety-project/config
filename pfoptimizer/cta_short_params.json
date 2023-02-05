@@ -1,6 +1,6 @@
 {
     "input_data": {
-        "dirname": "/home/david/mktdata/binance/downloads",
+        "dirpath": ["mktdata","binance","downloads"],
         "start_date": "2022-08-15T00:00:00",
         "selected_instruments": [
             "AAVEUSDT",
@@ -19,42 +19,40 @@
     "run_parameters": {
         "unit_test": false,
         "no_normalize": ["sign", "big"],
-        "verbose": false,
-        "splits_for_1000": 6,
+        "tx_cost": 5e-4,
         "models": {
-            "performance": {"LinearRegression": {}},
-            "sign": {
-                "LogisticRegression": {"max_iter": 1000},
-                "RandomForestClassifier": {"min_samples_split": 10,
-                    "n_jobs": -1,
-                    "warm_start": false}
+            "performance": {
+                "LinearRegression": {"splits_for_1000": 0,
+                    "params": {}}
             },
-            "big": {
-                "RandomForestClassifier": {"min_samples_split": 10,
-                    "n_jobs": -1,
-                    "warm_start": false}
+            "sign": {
+                "LogisticRegression": {"splits_for_1000": 6,
+                    "params":{"max_iter": 1000}},
+                "RandomForestClassifier": {"splits_for_1000": 0,
+                    "params":{
+                        "oob_score":true,
+                        "min_samples_split": 2,
+                        "n_jobs": -1,
+                        "warm_start": false}}
             }
         }
     },
     "feature_map": {
         "close": {
-            "transform": "increment",
-            "add_weight_by": "volume",
-            "ewma_windows": [5, 15, 60, 240, 480, 1440, 4320]},
+            "weight_by": "volume",
+            "ewma_windows": ["live", 5, 15, 60, 240, 480, 1440, 4320],
+            "hvol_incr_window": [[1,60],[15, 4320]]},
         "volume": {
             "transform": "log",
-            "ewma_windows": [4320]},
+            "ewma_windows": ["live", 4320]},
         "taker_imbalance": {
-            "transform": "arctanh",
-            "ewma_windows": []},
+            "transform": "arctanh"},
         "premium": {
-            "transform": "passthrough",
-            "add_weight_by": "volume",
-            "ewma_windows": [1440]}
+            "weight_by": "volume",
+            "ewma_windows": ["live", 1440]}
     },
     "label_map": {
-        "performance": {"horizons": [5, 60, 1440]},
-        "sign": {"horizons": [5, 60, 1440]},
-        "big": {"horizons": [5, 60, 1440]}
+        "performance": {"horizons": [5]},
+        "sign": {"horizons": [5]}
     }
 }

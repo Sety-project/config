@@ -1,4 +1,11 @@
 {
+    "exchanges": [
+        {
+            "exchange": "binanceusdm",
+            "subaccount": "None",
+            "equity_override": 1e5
+        }
+    ],
     "NB_BLOWUPS": {
         "value": 3,
         "comment": ""

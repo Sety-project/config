@@ -1,6 +1,6 @@
 {
     "input_data": {
-        "dirname": "/home/david/mktdata/binance/downloads",
+        "dirpath": ["mktdata","binance","downloads"],
         "start_date": "2022-08-15T00:00:00",
         "selected_instruments": [
             "AAVEUSDT",
@@ -19,7 +19,7 @@
     "run_parameters": {
         "unit_test": false,
         "no_normalize": ["sign", "big"],
-        "verbose": false,
+        "tx_cost": 5e-4,
         "splits_for_1000": 4,
         "models": {
             "performance": {
@@ -44,8 +44,7 @@
     },
     "feature_map": {
         "close": {
-            "transform": "increment",
-            "add_weight_by": "volume",
+            "weight_by": "volume",
             "ewma_windows": [5, 15, 60, 240, 480, 1440, 4320]},
         "volume": {
             "transform": "log",
@@ -54,8 +53,7 @@
             "transform": "arctanh",
             "ewma_windows": []},
         "premium": {
-            "transform": "passthrough",
-            "add_weight_by": "volume",
+            "weight_by": "volume",
             "ewma_windows": [5, 60, 1440]}
     },
     "label_map": {
