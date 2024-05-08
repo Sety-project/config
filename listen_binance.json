@@ -1,0 +1,23 @@
+{
+    "strategy":
+    {},
+    "signal_engine":
+    {
+        "type": "external",
+        "compile_frequency": 300,
+        "cache_size": 100000,
+        "stdev_window": 3600,
+        "record_set": [],
+        "orderbook_granularity": ["mid"]
+    },
+    "venue_api":
+    {
+        "exchange": "binance",
+        "subaccount": "debug",
+        "cache_size": 100000
+    },
+    "order_manager": {},
+    "position_manager":
+    {},
+    "comment": "minimal config for external signal engine with binance exchange"
+}
