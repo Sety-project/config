@@ -1,0 +1,25 @@
+{
+    "screening": {
+        "max": {
+            "future_volume_threshold": 50000,
+            "spot_volume_threshold": 50000,
+            "borrow_volume_threshold": -1,
+            "open_interest_threshold": 50000
+        },
+        "wide": {
+            "future_volume_threshold": 100000,
+            "spot_volume_threshold": 100000,
+            "borrow_volume_threshold": 200000,
+            "open_interest_threshold": 5000000
+        },
+        "institutional": {
+            "future_volume_threshold": 5000000,
+            "spot_volume_threshold": 5000000,
+            "borrow_volume_threshold": -1,
+            "open_interest_threshold": 10000000
+        }
+    },
+    "run_date": "2024-05-14 15:42:44.547536",
+    "universe_start": "2021-12-01 00:00:00+00:00",
+    "universe_end": "2024-05-13 00:00:00+00:00"
+}

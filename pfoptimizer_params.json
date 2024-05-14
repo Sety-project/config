@@ -1,0 +1,142 @@
+{
+    "NB_BLOWUPS": {
+        "value": 3,
+        "comment": ""
+    },
+    "SHORT_BLOWUP": {
+        "value": 0.0,
+        "comment": ""
+    },
+    "LONG_BLOWUP": {
+        "value": 0.0,
+        "comment": ""
+    },
+    "EQUITY_OVERRIDE": {
+        "value": 10000000,
+        "comment": "uses subaccount balance if None"
+    },
+    "OPEN_ORDERS_HEADROOM": {
+        "value": 0.0,
+        "comment": "related to nb underlying * slice size"
+    },
+    "SIGNAL_HORIZON": {
+        "value": "3d",
+        "comment": ""
+    },
+    "HOLDING_PERIOD": {
+        "value": "5d",
+        "comment": ""
+    },
+    "SLIPPAGE_OVERRIDE": {
+        "value": 0.0005,
+        "comment": ""
+    },
+    "CONCENTRATION_LIMIT": {
+        "value": 10,
+        "comment": "max size/equity"
+    },
+    "MKTSHARE_LIMIT": {
+        "value": 10,
+        "comment": "max hourly volume and open interest share"
+    },
+    "MINIMUM_CARRY": {
+        "value": 0.1,
+        "comment": "screens out low carry underlyings. set < 0 to disable"
+    },
+    "REBASE_TOKENS": {
+        "value": [
+            "$BASED",
+            "3DOG",
+            "AMPL",
+            "AUSCM",
+            "BASE",
+            "BTRFLY",
+            "CHEEZ",
+            "CLAM",
+            "COIL",
+            "CROWN",
+            "DEBASE",
+            "DIGG",
+            "DIOS",
+            "DITTO",
+            "EIGHT",
+            "EXOD",
+            "FHM",
+            "FLOKIN",
+            "FOREVERPUMP",
+            "FORT",
+            "GRM",
+            "GRPL",
+            "GRV",
+            "GRX",
+            "GURU",
+            "GYRO",
+            "HEC",
+            "IN",
+            "IUP",
+            "JADE",
+            "KLIMA",
+            "LOVE",
+            "MARK",
+            "META",
+            "NMS",
+            "OHM",
+            "OHM",
+            "OMS",
+            "PAPA",
+            "RISE",
+            "ROME",
+            "SB",
+            "SDOG",
+            "SHARE",
+            "SOHM",
+            "SOHM",
+            "SPA",
+            "SPACE",
+            "SQUID",
+            "TAC",
+            "TEMPLE",
+            "TIME",
+            "TOB",
+            "USDX",
+            "VSQ",
+            "WAGMI",
+            "WSOHM",
+            "XAMP",
+            "XDEF2",
+            "XEUS",
+            "Z2O"
+        ],
+        "comment": ""
+    },
+    "EXCLUSION_LIST": {
+        "value": [],
+        "comment": ""
+    },
+    "DELTA_BLOWUP_ALERT": {
+        "value": 0.1,
+        "comment": ""
+    },
+    "NB_COINS": {
+        "value": 50,
+        "comment": "nb_coin if int, else expected carry quantile"
+    },
+    "UNIVERSE": {
+        "value": "institutional",
+        "comment": ""
+    },
+    "TYPE_ALLOWED": {
+        "value": [
+            "perpetual"
+        ],
+        "comment": "value should be a list. No need to contain +"
+    },
+    "USE_OTC": {
+        "value": false,
+        "comment": ""
+    },
+    "code": {
+        "value": "refactored",
+        "comment": "latest codechange desciption"
+    }
+}

@@ -134,7 +134,8 @@
     },
     "QTUMUSDT": {
         "tier": [
-            "max"
+            "max",
+            "wide"
         ]
     },
     "IOSTUSDT": {
@@ -241,7 +242,8 @@
     },
     "YFIUSDT": {
         "tier": [
-            "max"
+            "max",
+            "wide"
         ]
     },
     "BALUSDT": {
@@ -273,7 +275,8 @@
     "SUSHIUSDT": {
         "tier": [
             "max",
-            "wide"
+            "wide",
+            "institutional"
         ]
     },
     "EGLDUSDT": {
@@ -296,8 +299,7 @@
     },
     "STORJUSDT": {
         "tier": [
-            "max",
-            "wide"
+            "max"
         ]
     },
     "BLZUSDT": {
@@ -346,8 +348,7 @@
     },
     "KSMUSDT": {
         "tier": [
-            "max",
-            "wide"
+            "max"
         ]
     },
     "NEARUSDT": {
@@ -416,7 +417,8 @@
     },
     "ZENUSDT": {
         "tier": [
-            "max"
+            "max",
+            "wide"
         ]
     },
     "SKLUSDT": {
@@ -492,8 +494,7 @@
     },
     "COTIUSDT": {
         "tier": [
-            "max",
-            "wide"
+            "max"
         ]
     },
     "CHRUSDT": {
@@ -505,14 +506,12 @@
     "MANAUSDT": {
         "tier": [
             "max",
-            "wide",
-            "institutional"
+            "wide"
         ]
     },
     "ALICEUSDT": {
         "tier": [
-            "max",
-            "wide"
+            "max"
         ]
     },
     "HBARUSDT": {
@@ -524,8 +523,7 @@
     },
     "ONEUSDT": {
         "tier": [
-            "max",
-            "wide"
+            "max"
         ]
     },
     "LINAUSDT": {
@@ -557,7 +555,8 @@
     },
     "MTLUSDT": {
         "tier": [
-            "max"
+            "max",
+            "wide"
         ]
     },
     "OGNUSDT": {
@@ -583,8 +582,7 @@
     },
     "IOTXUSDT": {
         "tier": [
-            "max",
-            "wide"
+            "max"
         ]
     },
     "AUDIOUSDT": {
@@ -644,7 +642,8 @@
     },
     "ARPAUSDT": {
         "tier": [
-            "max"
+            "max",
+            "wide"
         ]
     },
     "CTSIUSDT": {
@@ -655,7 +654,8 @@
     "LPTUSDT": {
         "tier": [
             "max",
-            "wide"
+            "wide",
+            "institutional"
         ]
     },
     "ENSUSDT": {
@@ -668,7 +668,8 @@
     "PEOPLEUSDT": {
         "tier": [
             "max",
-            "wide"
+            "wide",
+            "institutional"
         ]
     },
     "ROSEUSDT": {
@@ -725,8 +726,7 @@
     "JASMYUSDT": {
         "tier": [
             "max",
-            "wide",
-            "institutional"
+            "wide"
         ]
     },
     "DARUSDT": {
@@ -770,11 +770,6 @@
             "max",
             "wide",
             "institutional"
-        ]
-    },
-    "CVXUSDT": {
-        "tier": [
-            "max"
         ]
     },
     "ICPUSDT": {
@@ -915,8 +910,7 @@
     },
     "TRUUSDT": {
         "tier": [
-            "max",
-            "wide"
+            "max"
         ]
     },
     "LQTYUSDT": {
@@ -999,12 +993,9 @@
     },
     "UMAUSDT": {
         "tier": [
-            "max"
-        ]
-    },
-    "RADUSDT": {
-        "tier": [
-            "max"
+            "max",
+            "wide",
+            "institutional"
         ]
     },
     "KEYUSDT": {
@@ -1034,7 +1025,8 @@
     },
     "XVGUSDT": {
         "tier": [
-            "max"
+            "max",
+            "wide"
         ]
     },
     "WLDUSDT": {
@@ -1117,16 +1109,10 @@
     },
     "LOOMUSDT": {
         "tier": [
-            "max",
-            "wide"
-        ]
-    },
-    "BONDUSDT": {
-        "tier": [
             "max"
         ]
     },
-    "STPTUSDT": {
+    "BONDUSDT": {
         "tier": [
             "max"
         ]
@@ -1185,11 +1171,6 @@
             "max"
         ]
     },
-    "MBLUSDT": {
-        "tier": [
-            "max"
-        ]
-    },
     "SUPERUSDT": {
         "tier": [
             "max"
@@ -1197,8 +1178,7 @@
     },
     "USTCUSDT": {
         "tier": [
-            "max",
-            "wide"
+            "max"
         ]
     },
     "ONGUSDT": {
@@ -1233,8 +1213,7 @@
     "GLMUSDT": {
         "tier": [
             "max",
-            "wide",
-            "institutional"
+            "wide"
         ]
     }
 }
