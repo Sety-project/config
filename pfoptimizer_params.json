@@ -24,7 +24,7 @@
         "comment": ""
     },
     "HOLDING_PERIOD": {
-        "value": "5d",
+        "value": "20d",
         "comment": ""
     },
     "SLIPPAGE_OVERRIDE": {
@@ -40,8 +40,16 @@
         "comment": "max hourly volume and open interest share"
     },
     "MINIMUM_CARRY": {
-        "value": 0.1,
+        "value": 0.01,
         "comment": "screens out low carry underlyings. set < 0 to disable"
+    },
+    "OPTIONAL_PARAMS":
+    {
+        "value": [
+            "warm_start",
+            "NOTverbose",
+            "ignore_direction"],
+        "comment": ""
     },
     "REBASE_TOKENS": {
         "value": [

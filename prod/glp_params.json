@@ -47,12 +47,12 @@
             "orderbook_granularity": ["mid"]
         },
         "venue_api": {
-            "exchange": "binanceusdm",
+            "exchange": "binance",
             "subaccount": ""
         },
         "order_manager": {},
         "position_manager": {
-            "exchange": "binanceusdm",
+            "exchange": "binance",
             "check_frequency": 60,
             "global_beta": 0.7,
             "delta_limit": 0.25,
